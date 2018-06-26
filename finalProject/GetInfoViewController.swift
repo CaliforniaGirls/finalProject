@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GetInfoViewController: UIViewController {
+class GetInfoViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var getInfoLabelTop: UILabel!
     @IBOutlet weak var firstNameLabel: UILabel!
     @IBOutlet weak var lastNameLabel: UILabel!
@@ -30,6 +30,12 @@ class GetInfoViewController: UIViewController {
     var instagramHandle: String = ""
     var snapchatHandle: String = ""
     var twitterHandle: String = ""
+
+    func textFieldShouldReturn(_ scoreText: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
+    }
+
     
     @IBAction func submitInfo(_ sender: Any) {
         firstName = firstNameText.text!
@@ -49,6 +55,12 @@ class GetInfoViewController: UIViewController {
         instagramText.text = instagramHandle
         snapchatText.text = snapchatHandle
         twitterText.text = twitterHandle
+        firstNameText.delegate = self
+        lastNameText.delegate = self
+        emailText.delegate = self
+        instagramText.delegate = self
+        snapchatText.delegate = self
+        twitterText.delegate = self
         // Do any additional setup after loading the view.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -67,16 +79,5 @@ class GetInfoViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
