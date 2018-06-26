@@ -15,6 +15,8 @@
 		08C3816B20E186DD002E8EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C3816920E186DD002E8EEA /* LaunchScreen.storyboard */; };
 		08C3817620E186DD002E8EEA /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3817520E186DD002E8EEA /* finalProjectTests.swift */; };
 		08C3818120E186DD002E8EEA /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3818020E186DD002E8EEA /* finalProjectUITests.swift */; };
+		CCA7544920E193A800E621CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA7544820E193A800E621CB /* UserViewController.swift */; };
+		CCA7544B20E193CE00E621CB /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA7544A20E193CE00E621CB /* ShareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		08C3817C20E186DD002E8EEA /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C3818020E186DD002E8EEA /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		08C3818220E186DD002E8EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA7544820E193A800E621CB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CCA7544A20E193CE00E621CB /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				08C3815D20E186DD002E8EEA /* AppDelegate.swift */,
 				08C3815F20E186DD002E8EEA /* ViewController.swift */,
 				08C3816120E186DD002E8EEA /* Main.storyboard */,
+				CCA7544820E193A800E621CB /* UserViewController.swift */,
+				CCA7544A20E193CE00E621CB /* ShareViewController.swift */,
 				08C3816720E186DD002E8EEA /* Assets.xcassets */,
 				08C3816920E186DD002E8EEA /* LaunchScreen.storyboard */,
 				08C3816C20E186DD002E8EEA /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C3816020E186DD002E8EEA /* ViewController.swift in Sources */,
+				CCA7544920E193A800E621CB /* UserViewController.swift in Sources */,
+				CCA7544B20E193CE00E621CB /* ShareViewController.swift in Sources */,
 				08C3816620E186DD002E8EEA /* finalProject.xcdatamodeld in Sources */,
 				08C3815E20E186DD002E8EEA /* AppDelegate.swift in Sources */,
 			);
