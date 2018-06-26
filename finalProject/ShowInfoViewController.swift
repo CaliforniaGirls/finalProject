@@ -56,13 +56,21 @@ class CopyableLabel: UILabel {
 }
 
 class ShowInfoViewController: UIViewController {
+    
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var firstNameLabel: UILabel!
-    @IBOutlet weak var lastNameLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var instagramLabel: UILabel!
     @IBOutlet weak var snapchatLabel: UILabel!
     @IBOutlet weak var twitterLabel: UILabel!
+    @IBOutlet weak var spotifyLabel: UILabel!
+    @IBOutlet weak var youtubeLabel: UILabel!
+    
+    @IBOutlet weak var emailGo: UIButton!
+    @IBOutlet weak var instagramGo: UIButton!
+    @IBOutlet weak var snapchatGo: UIButton!
+    @IBOutlet weak var twitterGo: UIButton!
+    @IBOutlet weak var spotifyGo: UIButton!
+    @IBOutlet weak var youtubeGo: UIButton!
     
     var firstName: String = ""
     var lastName: String = ""
@@ -70,6 +78,85 @@ class ShowInfoViewController: UIViewController {
     var instagram: String = ""
     var snapchat: String = ""
     var twitter: String = ""
+    var spotify: String = ""
+    var youtube: String = ""
+    
+    var instagramLink: String = "https://www.instagram.com/"
+    var TwitterLink: String = "https://www.twitter.com/"
+    var spotifyLink: String = "https://www.spotify.com/"
+    var youtubeLink: String = "https://www.youtube.com/"
+    var snapchatLink: String = "https://www.snapchat.com/add/"
+
+    @IBAction func emailAction(_ sender: Any) {
+        
+    }
+    
+    @IBAction func instagramAction(_ sender: Any) {
+        if (instagramLabel.text!.isEmpty){
+            print("No instagram added.")
+        }
+        else {
+            instagramLink = instagramLink + instagramLabel.text!
+            UIApplication.shared.open(URL(string: instagramLink)! as URL, options: [:], completionHandler: { (status) in
+                
+            })
+            instagramLink = "https://www.instagram.com/"
+        }
+    }
+    @IBAction func snapchatAction(_ sender: Any) {
+        if (snapchatLabel.text!.isEmpty){
+            print("No snapchat added.")
+        }
+        else {
+            snapchatLink = snapchatLink + snapchatLabel.text!
+            UIApplication.shared.open(URL(string: snapchatLink)! as URL, options: [:], completionHandler: { (status) in
+                
+            })
+            snapchatLink = "https://www.snapchat.com/add/"
+        }
+    }
+    
+    @IBAction func twitterAction(_ sender: Any) {
+        if (twitterLabel.text!.isEmpty){
+            print("No twitter added.")
+        }
+        else {
+            TwitterLink = TwitterLink + twitterLabel.text!
+            UIApplication.shared.open(URL(string: TwitterLink)! as URL, options: [:],
+                                      completionHandler: {  (status) in
+                                        
+            })
+            TwitterLink = "https://www.twitter.com/"
+            
+        }
+    }
+    
+    @IBAction func spotifyAction(_ sender: Any) {
+        if (spotifyLabel.text!.isEmpty){
+            print("No spotify added.")
+        }
+        else {
+            spotifyLink = spotifyLink + spotifyLabel.text!
+            UIApplication.shared.open(URL(string: spotifyLink)! as URL,options: [:],
+                                      completionHandler: {  (status) in
+                                        
+            })
+            spotifyLink = "https://www.spotify.com/"
+        }
+    }
+    @IBAction func youtubeAction(_ sender: Any) {
+        if (youtubeLabel.text!.isEmpty){
+            print("No youtube added")
+        }
+        else {
+            youtubeLink = youtubeLink + youtubeLabel.text!
+            UIApplication.shared.open(URL(string: youtubeLink)! as URL, options: [:],
+                                      completionHandler: { (status) in
+                                        
+            })
+            youtubeLink = "https://www.youtube.com/"
+        }
+    }
     
     @IBAction func editInfoAction(_ sender: Any) {
         performSegue(withIdentifier: "editInfo", sender: nil)
@@ -77,17 +164,17 @@ class ShowInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        firstNameLabel.text = firstName
-        lastNameLabel.text = lastName
+        titleLabel.text = "\(firstName) \(lastName) Info"
         emailLabel.text = email
         instagramLabel.text = instagram
         snapchatLabel.text = snapchat
         twitterLabel.text = twitter
-        // Do any additional setup after loading the view.
+        spotifyLabel.text = spotify
+        youtubeLabel.text = youtube
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "editInfo") {
-            print("begun")
+            print("editInfo segue")
             let changeInfo = segue.destination as! GetInfoViewController
             changeInfo.firstName = firstName
             changeInfo.lastName = lastName
@@ -95,6 +182,8 @@ class ShowInfoViewController: UIViewController {
             changeInfo.instagramHandle = instagram
             changeInfo.snapchatHandle = snapchat
             changeInfo.twitterHandle = twitter
+            changeInfo.spotifyHandle = spotify
+            changeInfo.youtubeHandle = youtube
         }
     }
     override func didReceiveMemoryWarning() {
@@ -102,15 +191,4 @@ class ShowInfoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
