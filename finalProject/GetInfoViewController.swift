@@ -44,7 +44,6 @@ class GetInfoViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
         return true
     }
-
     
     @IBAction func submitInfo(_ sender: Any) {
         firstName = firstNameText.text!
@@ -53,6 +52,9 @@ class GetInfoViewController: UIViewController, UITextFieldDelegate {
         instagramHandle = instagramText.text!
         snapchatHandle = snapchatText.text!
         twitterHandle = twitterText.text!
+        spotifyHandle = spotifyText.text!
+        youtubeHandle = youtubeText.text!
+        
         performSegue(withIdentifier: "showMyInfo", sender: nil)
     }
     

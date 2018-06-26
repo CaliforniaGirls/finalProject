@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MessageUI
 
 class CopyableLabel: UILabel {
     
@@ -55,7 +56,7 @@ class CopyableLabel: UILabel {
     }
 }
 
-class ShowInfoViewController: UIViewController {
+class ShowInfoViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
@@ -88,8 +89,22 @@ class ShowInfoViewController: UIViewController {
     var snapchatLink: String = "https://www.snapchat.com/add/"
 
     @IBAction func emailAction(_ sender: Any) {
-        
+        if MFMailComposeViewController.canSendMail() {
+            let mail = MFMailComposeViewController()
+            mail.mailComposeDelegate = self
+            mail.setToRecipients([email])
+            mail.setMessageBody("<p>Sent from California</p>", isHTML: true)
+            
+            present(mail, animated: true)
+        } else {
+            print("cannot send mail")
+        }
     }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true)
+    }
+    
     
     @IBAction func instagramAction(_ sender: Any) {
         if (instagramLabel.text!.isEmpty){
