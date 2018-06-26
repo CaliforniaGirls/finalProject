@@ -187,6 +187,7 @@ class ShowInfoViewController: UIViewController, MFMailComposeViewControllerDeleg
         spotifyLabel.text = spotify
         youtubeLabel.text = youtube
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "editInfo") {
             print("editInfo segue")

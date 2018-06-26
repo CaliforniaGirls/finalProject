@@ -30,6 +30,15 @@ class GetInfoViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var youtubeText: UITextField!
     
     @IBOutlet weak var submitButtonOne: UIButton!
+    @IBOutlet weak var stackViewOne: UIStackView!
+    @IBOutlet weak var stackViewFirstName: UIStackView!
+    @IBOutlet weak var stackViewLastName: UIStackView!
+    @IBOutlet weak var stackViewEmail: UIStackView!
+    @IBOutlet weak var stackViewInstagram: UIStackView!
+    @IBOutlet weak var stackViewSnapchat: UIStackView!
+    @IBOutlet weak var stackViewTwitter: UIStackView!
+    @IBOutlet weak var stackViewSpotify: UIStackView!
+    @IBOutlet weak var stackViewYoutube: UIStackView!
     
     var firstName: String = ""
     var lastName: String = ""

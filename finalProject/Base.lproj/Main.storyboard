@@ -64,20 +64,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Dn-DF-PV7">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7Dn-DF-PV7">
                                 <rect key="frame" x="10" y="60.5" width="355" height="596.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PCX-uG-5QI">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="62"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPV-B4-3RB">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rcc-PA-GeO">
-                                                <rect key="frame" x="0.0" y="28.5" width="355" height="29"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="given-name"/>
@@ -85,16 +85,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xFr-6Z-uca">
-                                        <rect key="frame" x="0.0" y="67.5" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="67" width="355" height="61.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AX-Za-Ne8">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wo0-wC-v7g">
-                                                <rect key="frame" x="0.0" y="28.5" width="355" height="29"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="30.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" enablesReturnKeyAutomatically="YES" textContentType="family-name"/>
@@ -102,16 +102,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="V3g-uZ-vPc">
-                                        <rect key="frame" x="0.0" y="135" width="355" height="57"/>
+                                        <rect key="frame" x="0.0" y="133.5" width="355" height="62"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNG-Hd-t8Y">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cZj-Zc-taR">
-                                                <rect key="frame" x="0.0" y="28.5" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES" textContentType="email"/>
@@ -119,16 +119,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wEZ-vy-cfz">
-                                        <rect key="frame" x="0.0" y="202" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="200.5" width="355" height="62"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8M-fO-jWu">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="29"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SDh-D5-0Ta">
-                                                <rect key="frame" x="0.0" y="29" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -136,16 +136,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wv2-4d-yvR">
-                                        <rect key="frame" x="0.0" y="269.5" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="267.5" width="355" height="61.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgh-nz-Aci">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="29"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6wP-1S-4cF">
-                                                <rect key="frame" x="0.0" y="29" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="30.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -153,16 +153,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WIh-6S-QCV">
-                                        <rect key="frame" x="0.0" y="337" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="334" width="355" height="62"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-cz-30U">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a9T-OM-SzJ">
-                                                <rect key="frame" x="0.0" y="28.5" width="355" height="29"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -170,16 +170,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QY8-FS-DgR">
-                                        <rect key="frame" x="0.0" y="404.5" width="355" height="57"/>
+                                        <rect key="frame" x="0.0" y="401" width="355" height="62"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spotify Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gw3-n8-9Ib">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hzr-1l-P1Y">
-                                                <rect key="frame" x="0.0" y="28.5" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -187,16 +187,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-5k-hSs">
-                                        <rect key="frame" x="0.0" y="471.5" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="468" width="355" height="61.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54A-AN-BJU">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="29"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9h-5O-wvB">
-                                                <rect key="frame" x="0.0" y="29" width="355" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="355" height="30.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -204,7 +204,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzk-Zz-KeD">
-                                        <rect key="frame" x="0.0" y="539" width="355" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="534.5" width="355" height="62"/>
                                         <state key="normal" title="Submit"/>
                                         <connections>
                                             <action selector="submitInfo:" destination="mXV-sf-Wcs" eventType="touchUpInside" id="Rwu-M6-465"/>
@@ -239,6 +239,15 @@
                         <outlet property="snapchatText" destination="6wP-1S-4cF" id="bI1-Aa-np7"/>
                         <outlet property="spotifyLabel" destination="gw3-n8-9Ib" id="5La-DA-o0L"/>
                         <outlet property="spotifyText" destination="hzr-1l-P1Y" id="dye-xe-tOO"/>
+                        <outlet property="stackViewEmail" destination="V3g-uZ-vPc" id="v5w-X7-9Dv"/>
+                        <outlet property="stackViewFirstName" destination="PCX-uG-5QI" id="5Lv-lD-Ljy"/>
+                        <outlet property="stackViewInstagram" destination="wEZ-vy-cfz" id="SY9-Io-gHv"/>
+                        <outlet property="stackViewLastName" destination="xFr-6Z-uca" id="4yS-Fo-6wE"/>
+                        <outlet property="stackViewOne" destination="7Dn-DF-PV7" id="6Np-jS-0pr"/>
+                        <outlet property="stackViewSnapchat" destination="wv2-4d-yvR" id="rIU-c8-HUH"/>
+                        <outlet property="stackViewSpotify" destination="QY8-FS-DgR" id="3Ag-VZ-y9T"/>
+                        <outlet property="stackViewTwitter" destination="WIh-6S-QCV" id="RBa-if-oRJ"/>
+                        <outlet property="stackViewYoutube" destination="f0k-5k-hSs" id="seY-t2-VRm"/>
                         <outlet property="submitButtonOne" destination="Uzk-Zz-KeD" id="8UY-x8-Qyc"/>
                         <outlet property="twitterLabel" destination="nXg-cz-30U" id="UTN-Fs-FqN"/>
                         <outlet property="twitterText" destination="a9T-OM-SzJ" id="faR-te-SMz"/>
@@ -271,7 +280,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nAV-Bh-hZn">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="85"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrY-7k-UAg" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UrY-7k-UAg" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -289,7 +298,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AlA-Z9-Sce">
                                         <rect key="frame" x="0.0" y="85" width="335" height="85.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Cb-Ji-Pq7" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Cb-Ji-Pq7" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -307,7 +316,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nqX-aQ-4mq">
                                         <rect key="frame" x="0.0" y="170.5" width="335" height="85"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uD-oR-VAg" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2uD-oR-VAg" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -325,7 +334,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mlB-AB-hv2">
                                         <rect key="frame" x="0.0" y="255.5" width="335" height="85.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcR-nE-ptj" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vcR-nE-ptj" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -343,7 +352,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xxI-3Q-JWn">
                                         <rect key="frame" x="0.0" y="341" width="335" height="85"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spotify Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-vF-6dZ" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spotify Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-vF-6dZ" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -361,7 +370,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MaB-xd-jJo">
                                         <rect key="frame" x="0.0" y="426" width="335" height="85.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YouTube Handle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1e-7K-11f" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YouTube Handle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1e-7K-11f" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
