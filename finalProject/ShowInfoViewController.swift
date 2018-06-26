@@ -11,12 +11,12 @@ import UIKit
 class ShowInfoViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var firstNameLabel: UILabel!
-    @IBOutlet weak var lastNameLabel: UILabel!
-    @IBOutlet weak var emailLabel: UILabel!
-    @IBOutlet weak var instagramLabel: UILabel!
-    @IBOutlet weak var snapchatLabel: UILabel!
-    @IBOutlet weak var twitterLabel: UILabel!
+    @IBOutlet weak var firstNameText: UITextView!
+    @IBOutlet weak var lastNameText: UITextView!
+    @IBOutlet weak var emailText: UITextView!
+    @IBOutlet weak var instagramText: UITextView!
+    @IBOutlet weak var snapchatText: UITextView!
+    @IBOutlet weak var twitterText: UITextView!
     
     var firstName: String = ""
     var lastName: String = ""
@@ -31,12 +31,12 @@ class ShowInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        firstNameLabel.text = firstName
-        lastNameLabel.text = lastName
-        emailLabel.text = email
-        instagramLabel.text = instagram
-        snapchatLabel.text = snapchat
-        twitterLabel.text = twitter
+        firstNameText.text = firstName
+        lastNameText.text = lastName
+        emailText.text = email
+        instagramText.text = instagram
+        snapchatText.text = snapchat
+        twitterText.text = twitter
         // Do any additional setup after loading the view.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
