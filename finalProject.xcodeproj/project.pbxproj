@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0895AF0120E2A3A9005CC207 /* GetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0895AF0020E2A3A9005CC207 /* GetInfoViewController.swift */; };
+		0895AF0320E2A3C6005CC207 /* ShowInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0895AF0220E2A3C6005CC207 /* ShowInfoViewController.swift */; };
 		08C3815E20E186DD002E8EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3815D20E186DD002E8EEA /* AppDelegate.swift */; };
 		08C3816020E186DD002E8EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3815F20E186DD002E8EEA /* ViewController.swift */; };
 		08C3816320E186DD002E8EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C3816120E186DD002E8EEA /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0895AF0020E2A3A9005CC207 /* GetInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoViewController.swift; sourceTree = "<group>"; };
+		0895AF0220E2A3C6005CC207 /* ShowInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoViewController.swift; sourceTree = "<group>"; };
 		08C3815A20E186DD002E8EEA /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C3815D20E186DD002E8EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C3815F20E186DD002E8EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				08C3815D20E186DD002E8EEA /* AppDelegate.swift */,
 				08C3815F20E186DD002E8EEA /* ViewController.swift */,
 				08C3816120E186DD002E8EEA /* Main.storyboard */,
+				0895AF0020E2A3A9005CC207 /* GetInfoViewController.swift */,
+				0895AF0220E2A3C6005CC207 /* ShowInfoViewController.swift */,
 				08C3816720E186DD002E8EEA /* Assets.xcassets */,
 				08C3816920E186DD002E8EEA /* LaunchScreen.storyboard */,
 				08C3816C20E186DD002E8EEA /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C3816020E186DD002E8EEA /* ViewController.swift in Sources */,
+				0895AF0120E2A3A9005CC207 /* GetInfoViewController.swift in Sources */,
+				0895AF0320E2A3C6005CC207 /* ShowInfoViewController.swift in Sources */,
 				08C3816620E186DD002E8EEA /* finalProject.xcdatamodeld in Sources */,
 				08C3815E20E186DD002E8EEA /* AppDelegate.swift in Sources */,
 			);
