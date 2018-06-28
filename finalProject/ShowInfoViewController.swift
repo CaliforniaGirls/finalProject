@@ -66,6 +66,7 @@ class ShowInfoViewController: UIViewController, MFMailComposeViewControllerDeleg
     @IBOutlet weak var spotifyLabel: UILabel!
     @IBOutlet weak var youtubeLabel: UILabel!
     
+    
     @IBOutlet weak var emailGo: UIButton!
     @IBOutlet weak var instagramGo: UIButton!
     @IBOutlet weak var snapchatGo: UIButton!
@@ -88,6 +89,7 @@ class ShowInfoViewController: UIViewController, MFMailComposeViewControllerDeleg
     var youtubeLink: String = "https://www.youtube.com/"
     var snapchatLink: String = "https://www.snapchat.com/add/"
 
+    
     @IBAction func emailAction(_ sender: Any) {
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
@@ -98,12 +100,14 @@ class ShowInfoViewController: UIViewController, MFMailComposeViewControllerDeleg
             present(mail, animated: true)
         } else {
             print("cannot send mail")
+            func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+                controller.dismiss(animated: true)
+            }
         }
     }
-    
-    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-        controller.dismiss(animated: true)
-    }
+
+   
+
     
     
     @IBAction func instagramAction(_ sender: Any) {
@@ -170,8 +174,9 @@ class ShowInfoViewController: UIViewController, MFMailComposeViewControllerDeleg
                                         
             })
             youtubeLink = "https://www.youtube.com/"
-        }
     }
+}
+    
     
     @IBAction func editInfoAction(_ sender: Any) {
         performSegue(withIdentifier: "editInfo", sender: nil)
