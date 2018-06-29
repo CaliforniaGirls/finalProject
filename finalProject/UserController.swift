@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  UserController.swift
 //  finalProject
 //
-//  Created by GWC on 6/27/18.
+//  Created by GWC on 6/25/18.
 //  Copyright © 2018 Vivian Phung. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,24 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="D1f-9l-la7">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="Jgp-Ol-ovp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M07-sA-vpl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dw1-Ww-ItI"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bkp-Hk-mcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-63" y="-3078"/>
+        </scene>
+        <!--User Controller-->
+        <scene sceneID="aTd-dg-d4H">
+            <objects>
+                <viewController storyboardIdentifier="UserController" title="User Controller" id="TXF-LB-rgF" customClass="UserController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7r5-iH-2Hs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r7Y-gl-loW">
+                                <rect key="frame" x="16" y="246" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2ko-2H-Nvi"/>
+                                    <constraint firstAttribute="width" constant="343" id="QtG-aC-nBA"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vir-3q-qsT">
+                                <rect key="frame" x="289" y="591" width="70" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="b42-n4-au6"/>
+                                    <constraint firstAttribute="height" constant="56" id="vCQ-AJ-pQq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="35"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRE-g5-XGB">
+                                <rect key="frame" x="16" y="111" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8NW-fO-8RQ"/>
+                                    <constraint firstAttribute="width" constant="343" id="98A-u8-Meb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yNW-x4-EaM">
+                                <rect key="frame" x="16" y="183" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvA-Z7-IaB">
+                                <rect key="frame" x="16" y="77" width="97" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="Ntp-jC-y6N"/>
+                                    <constraint firstAttribute="height" constant="26" id="wTv-46-qIN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFf-yJ-g09">
+                                <rect key="frame" x="16" y="223" width="87" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="87A-D5-WqI"/>
+                                    <constraint firstAttribute="height" constant="23" id="Sse-cb-MpC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio/Facts:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnL-Fp-J22">
+                                <rect key="frame" x="16" y="292" width="87" height="21"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UFh-fK-gHK">
+                                <rect key="frame" x="16" y="319" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRy-xn-frc">
+                                <rect key="frame" x="16" y="386" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="6XU-qh-rMT"/>
+                                    <constraint firstAttribute="height" constant="21" id="ikh-TA-AFV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tC-ET-m7J">
+                                <rect key="frame" x="17" y="149" width="97" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="XVZ-Cv-XGm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dft-eK-Nls">
+                                <rect key="frame" x="30" y="591" width="70" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="dIC-qa-eZ2"/>
+                                    <constraint firstAttribute="height" constant="56" id="qKs-PL-Uq9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="35"/>
+                                <state key="normal" title="Prev">
+                                    <color key="titleColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUC-ta-Ygf">
+                                <rect key="frame" x="16" y="406" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PRi-vy-Jri"/>
+                                    <constraint firstAttribute="width" constant="343" id="jsY-5u-iRb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="trailing" secondItem="yNW-x4-EaM" secondAttribute="trailing" id="2hD-4Y-IM2"/>
+                            <constraint firstAttribute="trailing" secondItem="lFf-yJ-g09" secondAttribute="trailing" constant="272" id="3nu-Gq-Kfk"/>
+                            <constraint firstItem="tnL-Fp-J22" firstAttribute="top" secondItem="r7Y-gl-loW" secondAttribute="bottom" constant="16" id="4XV-jZ-Cuv"/>
+                            <constraint firstItem="r7Y-gl-loW" firstAttribute="leading" secondItem="7r5-iH-2Hs" secondAttribute="leadingMargin" id="4qh-1H-Ims"/>
+                            <constraint firstItem="fvA-Z7-IaB" firstAttribute="leading" secondItem="yNW-x4-EaM" secondAttribute="leading" id="7E5-Sc-a6k"/>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="trailing" secondItem="Vir-3q-qsT" secondAttribute="trailing" id="7n0-He-Qhb"/>
+                            <constraint firstItem="r7Y-gl-loW" firstAttribute="top" secondItem="7r5-iH-2Hs" secondAttribute="top" constant="246" id="92a-ND-QXp"/>
+                            <constraint firstItem="r7Y-gl-loW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lFf-yJ-g09" secondAttribute="leading" id="9Xm-qY-IR0"/>
+                            <constraint firstItem="SUC-ta-Ygf" firstAttribute="trailing" secondItem="UFh-fK-gHK" secondAttribute="trailing" id="IUi-j3-UOj"/>
+                            <constraint firstItem="vRy-xn-frc" firstAttribute="leading" secondItem="SUC-ta-Ygf" secondAttribute="leading" id="K2i-yJ-hlu"/>
+                            <constraint firstItem="r7Y-gl-loW" firstAttribute="leading" secondItem="UFh-fK-gHK" secondAttribute="leading" id="LOc-Qq-mwf"/>
+                            <constraint firstItem="fvA-Z7-IaB" firstAttribute="top" secondItem="Spb-w2-zCx" secondAttribute="top" constant="57" id="M0u-Ad-xfP"/>
+                            <constraint firstItem="fvA-Z7-IaB" firstAttribute="leading" secondItem="Spb-w2-zCx" secondAttribute="leading" constant="16" id="Oww-yH-bQT"/>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="trailing" secondItem="r7Y-gl-loW" secondAttribute="trailing" id="Pel-KN-GMg"/>
+                            <constraint firstItem="SUC-ta-Ygf" firstAttribute="top" secondItem="UFh-fK-gHK" secondAttribute="bottom" constant="57" id="SFr-d1-eor"/>
+                            <constraint firstItem="vRy-xn-frc" firstAttribute="top" secondItem="UFh-fK-gHK" secondAttribute="bottom" constant="37" id="UDm-ui-hSv"/>
+                            <constraint firstItem="fvA-Z7-IaB" firstAttribute="leading" secondItem="7tC-ET-m7J" secondAttribute="leading" constant="-1" id="Uc3-1I-bEt"/>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="leading" secondItem="fvA-Z7-IaB" secondAttribute="leading" id="YWw-LS-06j"/>
+                            <constraint firstItem="r7Y-gl-loW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tnL-Fp-J22" secondAttribute="leading" id="a0J-xT-YPj"/>
+                            <constraint firstAttribute="bottom" secondItem="Vir-3q-qsT" secondAttribute="bottom" constant="20" symbolic="YES" id="aWE-BP-bHb"/>
+                            <constraint firstItem="Vir-3q-qsT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7r5-iH-2Hs" secondAttribute="leading" constant="20" symbolic="YES" id="bLp-6s-mHO"/>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="trailing" secondItem="UFh-fK-gHK" secondAttribute="trailing" id="fVG-cM-6fu"/>
+                            <constraint firstItem="yNW-x4-EaM" firstAttribute="top" secondItem="7tC-ET-m7J" secondAttribute="bottom" constant="8" symbolic="YES" id="fnW-4c-mBf"/>
+                            <constraint firstItem="fvA-Z7-IaB" firstAttribute="trailing" secondItem="7tC-ET-m7J" secondAttribute="trailing" constant="-1" id="gfj-OJ-Atx"/>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="top" secondItem="fvA-Z7-IaB" secondAttribute="bottom" constant="8" id="nWA-YT-y2E"/>
+                            <constraint firstItem="Dft-eK-Nls" firstAttribute="centerX" secondItem="vRy-xn-frc" secondAttribute="centerX" id="oZS-gP-BLH"/>
+                            <constraint firstAttribute="trailing" secondItem="tnL-Fp-J22" secondAttribute="trailing" constant="272" id="pAc-yZ-fQD"/>
+                            <constraint firstItem="dRE-g5-XGB" firstAttribute="trailing" secondItem="7r5-iH-2Hs" secondAttribute="trailingMargin" id="tHg-kw-tfm"/>
+                            <constraint firstItem="7tC-ET-m7J" firstAttribute="top" secondItem="dRE-g5-XGB" secondAttribute="bottom" constant="8" symbolic="YES" id="uzT-KS-eH0"/>
+                            <constraint firstItem="UFh-fK-gHK" firstAttribute="centerY" secondItem="7r5-iH-2Hs" secondAttribute="centerY" id="w0M-5h-EhE"/>
+                            <constraint firstItem="Dft-eK-Nls" firstAttribute="baseline" secondItem="Vir-3q-qsT" secondAttribute="baseline" id="wwA-sd-BOd"/>
+                            <constraint firstItem="r7Y-gl-loW" firstAttribute="top" secondItem="lFf-yJ-g09" secondAttribute="bottom" id="yiH-9q-XJ5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Spb-w2-zCx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yIY-pr-7z9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="-3066.1169415292356"/>
         </scene>
     </scenes>
 </document>
