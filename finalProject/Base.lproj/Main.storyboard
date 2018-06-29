@@ -18,23 +18,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wat-ru-qqc">
-                                <rect key="frame" x="10" y="120" width="355" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wat-ru-qqc">
+                                <rect key="frame" x="10" y="32" width="355" height="48"/>
                                 <string key="text">California Girls
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9It-3k-w1S">
-                                <rect key="frame" x="10" y="617" width="355" height="30"/>
-                                <state key="normal" title="Enter Info"/>
+                                <rect key="frame" x="10" y="574" width="355" height="73"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="38"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.01588277284" green="0.01588277284" blue="0.01588277284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="mXV-sf-Wcs" kind="show" id="gud-f4-rGV"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snap" translatesAutoresizingMaskIntoConstraints="NO" id="FaN-VT-WBG">
+                                <rect key="frame" x="89" y="482" width="74" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="iz4-fD-n5Z">
+                                <rect key="frame" x="234" y="475" width="81" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="youtube" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-dR-WFp">
+                                <rect key="frame" x="315" y="484" width="60" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spotify" translatesAutoresizingMaskIntoConstraints="NO" id="neg-qT-XVP">
+                                <rect key="frame" x="171" y="484" width="62" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="my page icon" translatesAutoresizingMaskIntoConstraints="NO" id="yv7-FI-J1N">
+                                <rect key="frame" x="-18" y="158" width="441" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MyPage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxm-Ct-kup">
+                                <rect key="frame" x="67" y="293" width="271" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.094439081847667694" green="0.24063423275947571" blue="0.57366150617599487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram-Logo-PNG-Transparent-Background-download" translatesAutoresizingMaskIntoConstraints="NO" id="Sps-a0-zO3">
+                                <rect key="frame" x="16" y="482" width="70" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.74861409840000004" blue="0.72925019069999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9It-3k-w1S" secondAttribute="trailing" constant="10" id="0Sl-ea-0eF"/>
                             <constraint firstItem="wat-ru-qqc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="H5Q-kl-jwF"/>
@@ -68,16 +103,16 @@
                                 <rect key="frame" x="10" y="60.5" width="355" height="596.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PCX-uG-5QI">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="62"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPV-B4-3RB">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rcc-PA-GeO">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="27.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="given-name"/>
@@ -85,16 +120,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xFr-6Z-uca">
-                                        <rect key="frame" x="0.0" y="67" width="355" height="61.5"/>
+                                        <rect key="frame" x="0.0" y="60" width="355" height="55.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AX-Za-Ne8">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wo0-wC-v7g">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="30.5"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="28"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" enablesReturnKeyAutomatically="YES" textContentType="family-name"/>
@@ -102,16 +137,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="V3g-uZ-vPc">
-                                        <rect key="frame" x="0.0" y="133.5" width="355" height="62"/>
+                                        <rect key="frame" x="0.0" y="120.5" width="355" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNG-Hd-t8Y">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cZj-Zc-taR">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="27.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES" textContentType="email"/>
@@ -119,16 +154,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wEZ-vy-cfz">
-                                        <rect key="frame" x="0.0" y="200.5" width="355" height="62"/>
+                                        <rect key="frame" x="0.0" y="180.5" width="355" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8M-fO-jWu">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SDh-D5-0Ta">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="27.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -136,16 +171,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wv2-4d-yvR">
-                                        <rect key="frame" x="0.0" y="267.5" width="355" height="61.5"/>
+                                        <rect key="frame" x="0.0" y="240.5" width="355" height="55.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgh-nz-Aci">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6wP-1S-4cF">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="30.5"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="28"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -153,16 +188,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WIh-6S-QCV">
-                                        <rect key="frame" x="0.0" y="334" width="355" height="62"/>
+                                        <rect key="frame" x="0.0" y="301" width="355" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-cz-30U">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a9T-OM-SzJ">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="27.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -170,16 +205,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QY8-FS-DgR">
-                                        <rect key="frame" x="0.0" y="401" width="355" height="62"/>
+                                        <rect key="frame" x="0.0" y="361" width="355" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spotify Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gw3-n8-9Ib">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hzr-1l-P1Y">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="27.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -187,16 +222,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-5k-hSs">
-                                        <rect key="frame" x="0.0" y="468" width="355" height="61.5"/>
+                                        <rect key="frame" x="0.0" y="421" width="355" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54A-AN-BJU">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="27.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9h-5O-wvB">
-                                                <rect key="frame" x="0.0" y="31" width="355" height="30.5"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="355" height="27.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -204,16 +239,23 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzk-Zz-KeD">
-                                        <rect key="frame" x="0.0" y="534.5" width="355" height="62"/>
+                                        <rect key="frame" x="0.0" y="481" width="355" height="55.5"/>
                                         <state key="normal" title="Submit"/>
                                         <connections>
                                             <action selector="submitInfo:" destination="mXV-sf-Wcs" eventType="touchUpInside" id="Rwu-M6-465"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUS-BX-zH2">
+                                        <rect key="frame" x="0.0" y="541.5" width="355" height="55"/>
+                                        <state key="normal" title="Home"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="SI7-0E-JdF"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.74861409840000004" blue="0.72925019069999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pQG-St-sSQ" firstAttribute="leading" secondItem="ppi-la-O3c" secondAttribute="leading" constant="10" id="259-8F-rsH"/>
                             <constraint firstItem="ppi-la-O3c" firstAttribute="trailing" secondItem="pQG-St-sSQ" secondAttribute="trailing" constant="10" id="IRH-NC-NL5"/>
@@ -269,13 +311,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gy-4r-3R2">
-                                <rect key="frame" x="10" y="30" width="355" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="10" y="30" width="355" height="23"/>
+                                <color key="backgroundColor" red="1" green="0.74861409840000004" blue="0.72925019069999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yL3-dm-Wsk">
-                                <rect key="frame" x="20" y="60.5" width="335" height="596.5"/>
+                                <rect key="frame" x="20" y="63" width="335" height="594"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nAV-Bh-hZn">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="85"/>
@@ -296,16 +339,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AlA-Z9-Sce">
-                                        <rect key="frame" x="0.0" y="85" width="335" height="85.5"/>
+                                        <rect key="frame" x="0.0" y="85" width="335" height="84.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Cb-Ji-Pq7" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="85.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="84.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4D-zB-4nN">
-                                                <rect key="frame" x="167.5" y="0.0" width="167.5" height="85.5"/>
+                                                <rect key="frame" x="167.5" y="0.0" width="167.5" height="84.5"/>
                                                 <state key="normal" title="GO"/>
                                                 <connections>
                                                     <action selector="instagramAction:" destination="iPc-zq-pjg" eventType="touchUpInside" id="Lx0-iN-rCG"/>
@@ -314,7 +357,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nqX-aQ-4mq">
-                                        <rect key="frame" x="0.0" y="170.5" width="335" height="85"/>
+                                        <rect key="frame" x="0.0" y="169.5" width="335" height="85"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2uD-oR-VAg" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85"/>
@@ -332,16 +375,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mlB-AB-hv2">
-                                        <rect key="frame" x="0.0" y="255.5" width="335" height="85.5"/>
+                                        <rect key="frame" x="0.0" y="254.5" width="335" height="85"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vcR-nE-ptj" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="85.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="85"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWe-bH-dHW">
-                                                <rect key="frame" x="167.5" y="0.0" width="167.5" height="85.5"/>
+                                                <rect key="frame" x="167.5" y="0.0" width="167.5" height="85"/>
                                                 <state key="normal" title="GO"/>
                                                 <connections>
                                                     <action selector="twitterAction:" destination="iPc-zq-pjg" eventType="touchUpInside" id="QTm-P7-nYl"/>
@@ -350,7 +393,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xxI-3Q-JWn">
-                                        <rect key="frame" x="0.0" y="341" width="335" height="85"/>
+                                        <rect key="frame" x="0.0" y="339.5" width="335" height="85"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spotify Handle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-vF-6dZ" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="85"/>
@@ -368,16 +411,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MaB-xd-jJo">
-                                        <rect key="frame" x="0.0" y="426" width="335" height="85.5"/>
+                                        <rect key="frame" x="0.0" y="424.5" width="335" height="84.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YouTube Handle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1e-7K-11f" customClass="CopyableLabel" customModule="finalProject" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="85.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="84.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoU-pu-VTm">
-                                                <rect key="frame" x="167.5" y="0.0" width="167.5" height="85.5"/>
+                                                <rect key="frame" x="167.5" y="0.0" width="167.5" height="84.5"/>
                                                 <state key="normal" title="GO"/>
                                                 <connections>
                                                     <action selector="youtubeAction:" destination="iPc-zq-pjg" eventType="touchUpInside" id="5Li-9D-iYJ"/>
@@ -386,7 +429,8 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5EK-Hr-sUc">
-                                        <rect key="frame" x="0.0" y="511.5" width="335" height="85"/>
+                                        <rect key="frame" x="0.0" y="509" width="335" height="85"/>
+                                        <color key="backgroundColor" red="1" green="0.74861409840000004" blue="0.72925019069999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Edit"/>
                                         <connections>
                                             <action selector="editInfoAction:" destination="iPc-zq-pjg" eventType="touchUpInside" id="Xhi-Vj-7Ty"/>
@@ -395,7 +439,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.74861409840000004" blue="0.72925019069999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yL3-dm-Wsk" firstAttribute="leading" secondItem="i1O-L5-gNn" secondAttribute="leading" constant="20" id="81v-6y-cFF"/>
                             <constraint firstItem="i1O-L5-gNn" firstAttribute="trailing" secondItem="yL3-dm-Wsk" secondAttribute="trailing" constant="20" id="D44-WH-k5v"/>
@@ -429,7 +473,15 @@
             <point key="canvasLocation" x="2413.5999999999999" y="33.733133433283363"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="instagram-Logo-PNG-Transparent-Background-download" width="1000" height="1000"/>
+        <image name="my page icon" width="351" height="280"/>
+        <image name="snap" width="1300" height="1100"/>
+        <image name="spotify" width="175" height="173"/>
+        <image name="twitter" width="1600" height="1600"/>
+        <image name="youtube" width="225" height="225"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WTP-gi-ZmA"/>
+        <segue reference="gud-f4-rGV"/>
     </inferredMetricsTieBreakers>
 </document>
